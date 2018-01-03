@@ -8,7 +8,11 @@ import { AuthService } from '../../services/auth.service';
 })
 export class NavBarComponent {
 
-  constructor( private auth: AuthService) {
+<<<<<<< HEAD
+  constructor( pubic auth: AuthService) {
+=======
+  constructor( public auth: AuthService) {
+>>>>>>> view google profile with auth0
     auth.handleAuthentication();
   }
 
